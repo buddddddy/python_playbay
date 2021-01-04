@@ -12,14 +12,12 @@ class Person:
         print(f'До свидания, мистер {self.name} {self.surname}.')
 
 
-Alexander = Person("Александр", 'Бобылев', 1)
-Aleksey = Person('Алексей', 'Каковкин', 3)
-Yuri = Person('Юрий', 'Томилин', 2)
+alexander = Person("Александр", 'Бобылев', 1)
+aleksey = Person('Алексей', 'Каковкин', 3)
+yuri = Person('Юрий', 'Томилин', 2)
 
-print(Person.get_info(Alexander))
-print(Person.get_info(Aleksey))
-print(Person.get_info(Yuri))
+print(alexander.get_info())
+print(aleksey.get_info())
+print(yuri.get_info())
 
 input()
-
-
