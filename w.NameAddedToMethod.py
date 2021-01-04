@@ -1,9 +1,9 @@
 from random import randint
 
+
 class Warrior:
 
     hp = 100
-
 
     def set_name(self, name):
         self.name = name
@@ -12,6 +12,7 @@ class Warrior:
         unit.hp -= 20
         print(self.name, 'бьёт', unit.name)
         print('%s = %d здоровья' % (unit.name, unit.hp))
+
 
 unit1 = Warrior()
 unit2 = Warrior()
